@@ -1,0 +1,44 @@
+.menu
+    background-image: initial
+    background-color: rgb(34, 39, 53)
+    width: 240px
+    z-index: 1001
+    bottom: 0
+    margin-top: 0
+    position: fixed
+    top: 70px
+    .menu-fit
+        position: absolute
+        padding: 0
+        margin: 0
+        top: 0
+        bottom: 0
+        width: 100%
+        .menu-main-content, .menu-categ-content
+            .menu-title
+                padding: 12px 20px
+                letter-spacing: .05em
+                pointer-events: none
+                cursor: default
+                font-size: 10px
+                text-transform: uppercase
+                color: rgb(168, 160, 149)
+                font-weight: 500
+            .menu-list
+                color: rgb(232, 230, 227)
+                ul
+                    padding-left: 0
+                    list-style: none
+                    margin: 0
+                    li
+                        display: block
+                        width: 100%
+                        padding: 12px 20px
+                        font-family: "Sarabun",sans-serif
+                        color: #545a6d
+                        position: relative
+                        font-size: 15.7px
+                        transition: all .4s
+                        cursor: pointer
+                        &:hover
+                            color: rgb(232, 230, 227)
